@@ -23,6 +23,12 @@ recently, i've been working on scripts using `fzf` and `rga` to improve how I se
 
 finally, since my work is split between my laptop and a desktop in the office, this environment needs to work on both machines. my plan is to manage this by setting variables on each machine that the scripts assume are available. unfortunately, I'm restricted to using `onedrive` at work for cloud storage. i treat my onedrive folder as something of a default root, with all of my other folders contained within it. so most of the variables are just paths to directories in my onedrive directory.
 
+here are the command line tools that are essential to the setup, in something like order of importance:
 
-
+* `vim` --- text editor
+* `pandoc` --- document converter
+* `make` --- tool to manage compilation and recompilation of output files
+* `fzf` --- fuzzy finder 
+* `rga` --- a faster grep for searching in files of various kinds
+* `zsh` --- a shell
 
